@@ -79,3 +79,6 @@ else:
         selected_index = ",".join(selected_indexes)
         st.write(f"You've selected: {', '.join(selected_indexes)}")
 
+threshold = st.number_input("Please input a threshold you'd like to test")
+st.write("You've selected", threshold)
+
