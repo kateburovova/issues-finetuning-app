@@ -86,3 +86,12 @@ threshold = st.number_input("Please input a threshold you'd like to test",
                             step=0.05)
 st.write("You've selected", threshold)
 
+prompt = st.text_input("Input the prompt you'd like to test")
+st.write("You've selected", prompt)
+
+selected_start_date = st.date_input("Select start date for the timeframe you'd like to test:")
+formatted_start_date = selected_start_date.strftime("%Y-%m-%d")
+st.write("You selected start date:", selected_start_date)
+selected_end_date = st.date_input("Select end date for the timeframe you'd like to test:")
+formatted_end_date = selected_end_date.strftime("%Y-%m-%d")
+
