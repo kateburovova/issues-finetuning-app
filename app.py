@@ -83,6 +83,6 @@ threshold = st.number_input("Please input a threshold you'd like to test",
                             min_value=0.0,
                             max_value=1.0,
                             value=0.5,
-                            step=0.01)
+                            step=0.05)
 st.write("You've selected", threshold)
 
