@@ -94,4 +94,6 @@ formatted_start_date = selected_start_date.strftime("%Y-%m-%d")
 st.write("You selected start date:", selected_start_date)
 selected_end_date = st.date_input("Select end date for the timeframe you'd like to test:")
 formatted_end_date = selected_end_date.strftime("%Y-%m-%d")
+st.write("You selected end date:", selected_start_date)
+
 
